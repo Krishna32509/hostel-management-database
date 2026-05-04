@@ -363,7 +363,7 @@ ORDER BY h.hostel_name, r.room_number;
 -- ============================================================
 
 CALL sp_register_complaint('1024031104', 'Electrical', 'Fan in room stopped working.');
-CALL sp_resolve_complaint(4);
+CALL sp_resolve_complaint(1);
 CALL sp_vacate_student('1024031105');
 
 -- ============================================================
